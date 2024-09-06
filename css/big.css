@@ -1,0 +1,163 @@
+:root {
+    --premcolor: deepskyblue;
+    --lithcolor: #ffffff;
+    --bgcolor: #171a1c;
+    --padding: 8%;
+    --pre3color: #a9773a;
+    --bg2color: #303232;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    color: var(--lithcolor);
+}
+
+.onepag {
+    background: var(--bgcolor);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    color: var(--premcolor);
+}
+
+nav {
+    padding-top: 2.2rem;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0.8rem 1.5rem;
+}
+
+nav ul li a {
+    color: var(--lithcolor);
+    transition: 0.4s;
+    font-size: 1.1rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+    letter-spacing: 0, 12rem;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color: var(--premcolor);
+}
+
+.btn {
+    color: var(--lithcolor);
+    background-color: var(--premcolor);
+    padding: 0.81rem 1.87rem;
+    border-radius: 2.2rem;
+    transition: 0.4s;
+    border: 3px solid transparent;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 3px solid var(--premcolor);
+}
+
+.contant {
+    flex-grow: 1;
+    padding: 0 var(--padding);
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3.65rem;
+    margin: 1.8rem 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 3.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+    letter-spacing: 0.12rem;
+    color: var(--pre3color);
+}
+
+.photo {
+    margin-top: 3.5rem;
+}
+
+.photo img {
+    margin-right: 2rem;
+    width: 2.5rem;
+}
+
+.about {
+    background-color: var(--bg2color);
+    padding: var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img {
+    width: 40%;
+}
+
+.img img {
+    width: 90%;
+
+}
+
+.text {
+    width: 35%;
+}
+
+.servs {
+    background-color: var(--bgcolor);
+    padding:2rem var(--padding);
+
+}
+
+.servs .text1 {
+    text-align: center;
+    
+}
+
+.boxa {
+    display: flex;
+    justify-content: space-between;
+}
+
+.man {
+    width: 250px;
+    background-color: var(--bg2color);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+}
+
+.man i {
+    font-size: 3.12rem;
+    text-align: center;
+    color: var(--premcolor);
+    margin: 2rem;
+}
+ 

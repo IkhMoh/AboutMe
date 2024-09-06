@@ -1,0 +1,11 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  list-style-type: none;
+  border: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color:lightgray;
+}
